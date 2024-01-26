@@ -752,38 +752,38 @@ footer .copy {
 
     #main {
         height: 45vh;
-        padding-left: 40px;
+        padding-left: 20px;
     }
 
     #main h4 {
-        font-size: 15px;
-        padding-bottom: 7px;
+        font-size: 8px;
+        padding-bottom: 4px;
     }
     
     #main h2 {
-        font-size: 15px;
-        padding-bottom: 8px;
+        font-size: 10px;
+        padding-bottom: 4px;
     }
     
     #main h1 {
-        font-size: 19px;
-        padding-bottom: 8px;
+        font-size: 12px;
+        padding-bottom: 4px;
     }
     
     #main h5 {
-        font-size: 9px;
-        padding-bottom: 15px;
+        font-size: 2px;
+        padding-bottom: 5px;
     }
     
     #main button {
-        width: 200px;
+        width: 140px;
         padding: 10px 30px;
         border: 1px solid black;
         outline: none;
         border-radius: 50px;
         margin-right: 50px;
         background: none;
-        font-size: 28px;
+        font-size: 14px;
     }
 
     #features .fe-box {
