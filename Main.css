@@ -1,0 +1,861 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: rgb(248, 244, 244);
+    box-shadow: 1px 2px 4px 2px lightgray;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+#header .logo {
+    width: 170px;
+    height: 110px;
+}
+
+#header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header ul li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+#header ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    transition: .3s linear;
+    position: relative;
+    color: black;
+}
+
+#header ul li a:hover,
+#header ul li .active {
+    color: aqua;
+}
+
+#header ul li a:hover::after,
+#header ul li .active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: aquamarine;
+}
+
+#main {
+    width: 100%;
+    height: 90vh;
+    background-image: url(./img/pg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 30px;
+    padding-left: 50px;
+}
+
+#main h4 {
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+#main h2 {
+    font-size: 45px;
+    padding-bottom: 35px;
+}
+
+#main h1 {
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+
+#main h5 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#main button {
+    width: 200px;
+    padding: 15px 40px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+    margin-right: 50px;
+    background: none;
+    font-size: 18px;
+}
+
+#main button:hover {
+    background-color: rgba(175, 155, 87, 0.849);
+    outline: none;
+    cursor: pointer;
+}
+
+#features {
+    padding: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#features .fe-box {
+    width: 150px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #cce7d0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+#features img {
+    height: 130px;
+    margin-bottom: 5px;
+}
+
+#features h3 {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: aquamarine;
+}
+
+#features .fe-box:hover {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#protects {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#protects h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#protects h6 {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.mini_container {
+    width: 23%;
+    min-width: 250px;
+    text-align: center;
+    position: relative;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 1px solid #99a39a;
+    margin: 15px 0;
+}
+
+.mini_container img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.mini_container .min {
+    text-align: start;
+}
+
+.mini_container .min h6 {
+    color: rgb(148, 139, 139);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.min h5 {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.min .star i {
+    color: goldenrod;
+    margin-bottom: 10px;
+}
+
+.min h4 {
+    color: rgb(60, 143, 60);
+}
+
+.mini_container .cart {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    border: 1px solid rgb(41, 114, 41);
+    color: rgb(48, 184, 48);
+    background-color: rgba(119, 233, 119, 0.548);
+    border-radius: 25px;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#repair {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/panner/repair.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    margin: 40px 0;
+}
+
+#repair h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#repair h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#repair span {
+    color: red;
+}
+
+#repair button {
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#repair button:hover {
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+
+
+
+#protects h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#protects h6 {
+    font-size: 20px;
+}
+
+
+#twobanner {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#twobanner .box {
+    min-width: 580px;
+    height: 50vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 35px;
+    flex-direction: column;
+    background-image: url(./img/panner/panner1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    color: white;
+}
+
+#twobanner .box h5 {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+#twobanner .box h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#twobanner .box h6 {
+    font-size: 17px;
+    font-weight: 350px;
+    margin-bottom: 10px;
+}
+
+#twobanner .box button {
+    padding: 15px 30px;
+    border: 1px solid white;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    transition: .3s;
+}
+
+#twobanner .box2 {
+    background-image: url(./img/panner/panner2.jpg);
+}
+
+#twobanner .box button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+#season {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+#season .se_box {
+    min-width: 350px;
+    height: 30vh;
+    padding: 10px;
+    background-image: url(./img/panner/season1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#season .se_box h1 {
+    color: white;
+}
+
+#season .se_box h2 {
+    color: red;
+}
+
+#season .se2 {
+    background-image: url(./img/panner/season2.jpg);
+}
+
+#season .se3 {
+    background-image: url(./img/panner/season3.jpg);
+}
+
+
+
+#signup {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./img/panner/b1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+#signup .sign1 {
+    padding: 50px;
+    color: white;
+    line-height: 30px;
+}
+
+#signup .sign1 h1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+#signup .sign1 p {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+
+#signup .sign2 {
+    padding: 40px;
+    display: flex;
+}
+
+
+#signup .sign2 input {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+}
+
+#signup .sign2 button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+footer .col img {
+    width: 130px;
+    height: 130px;
+}
+
+footer .col h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+footer .col p {
+    margin-bottom: 8px;
+}
+
+footer .follow h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+footer .follow .socila i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+footer .follow .socila i:hover {
+    color: rgb(42, 100, 100);
+}
+
+footer .col .linkss {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .col .linkss a {
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+footer .col .linkss a:hover {
+    color: black;
+}
+
+footer .co h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+footer .co p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+footer .co .google img {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer .copy {
+    width: 100%;
+    text-align: center;
+}
+
+.fa-xmark {
+    display: none;
+}
+
+/* .reshop {
+    display: none;
+}
+
+.fa-bars {
+    display: none;
+} */
+
+.berger{ 
+   display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    #header ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: aquamarine;
+        width: 300px;
+        height: 100vh;
+        z-index: 1;
+        padding-top: 60px;
+        padding-left: 40px;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        transition: 1s;
+    }
+
+    #header ul li a{
+        font-size: 30px;
+    }
+
+    #header ul li{
+        margin-bottom: 15px;
+    }
+
+    .fa-xmark {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        font-size: 30px;
+    }
+
+    /* .fa-bars {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        font-size: 30px;
+    } */
+
+    .berger{
+        display: block;
+        font-size: 30px;
+    }
+
+    .fa-bars{
+        margin-left: 10px;
+    }
+
+    #main {
+        height: 60vh;
+        padding-left: 60px;
+    }
+
+    #main h4 {
+        font-size: 45px;
+        padding-bottom: 40px;
+    }
+    
+    #main h2 {
+        font-size: 55px;
+        padding-bottom: 45px;
+    }
+    
+    #main h1 {
+        font-size: 65px;
+        padding-bottom: 30px;
+    }
+    
+    #main h5 {
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+    
+    #main button {
+        width: 250px;
+        padding: 20px 40px;
+        border: 1px solid black;
+        outline: none;
+        border-radius: 50px;
+        margin-right: 50px;
+        background: none;
+        font-size: 28px;
+    }
+
+    #features .fe-box {
+        width: 250px;      
+        margin-bottom: 20px;
+    }
+
+    .container {
+        justify-content: space-around;
+    }
+
+    .mini_container {
+        width: 35%;
+        margin: 15px 0;
+    }
+
+    #repair h6 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    #repair h2 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    #repair button {
+        padding: 20px 40px;
+        font-size: 28px;
+    }
+
+    #twobanner .box{
+        min-width: 680px;
+    height: 40vh;
+    margin-bottom: 20px;
+    }
+
+    #twobanner .box h5 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    
+    #twobanner .box h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    
+    #twobanner .box h6 {
+        font-size: 23px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    
+    #twobanner .box button {
+        padding: 25px 40px;
+        font-size: 28px;
+    }
+
+    #season {
+        justify-content: space-evenly;
+    }
+    
+    #season .se_box {
+        min-width: 400px;
+        height: 25vh;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #header ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: aquamarine;
+        width: 300px;
+        height: 100vh;
+        z-index: 1;
+        padding-top: 60px;
+        padding-left: 40px;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        transition: 1s;
+    }
+
+    #header ul li a{
+        font-size: 30px;
+    }
+
+    #header ul li{
+        margin-bottom: 15px;
+    }
+
+    .fa-xmark {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        font-size: 30px;
+    }
+
+    .berger{
+        display: block;
+        font-size: 30px;
+    }
+
+    .fa-bars{
+        margin-left: 10px;
+    }
+
+    #main {
+        height: 45vh;
+        padding-left: 40px;
+    }
+
+    #main h4 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    
+    #main h2 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    
+    #main h1 {
+        font-size: 38px;
+        padding-bottom: 15px;
+    }
+    
+    #main h5 {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+    
+    #main button {
+        width: 200px;
+        padding: 10px 30px;
+        border: 1px solid black;
+        outline: none;
+        border-radius: 50px;
+        margin-right: 50px;
+        background: none;
+        font-size: 28px;
+    }
+
+    #features .fe-box {
+        width: 200px;      
+        margin-bottom: 20px;
+    }
+
+    .container {
+        justify-content: space-around;
+    }
+
+    .mini_container {
+        width: 35%;
+        margin: 15px 0;
+    }
+
+    #repair h6 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    #repair h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    #repair button {
+        padding: 20px 40px;
+        font-size: 23px;
+    }
+
+    #twobanner .box{
+        min-width: 580px;
+    height: 40vh;
+    margin-bottom: 20px;
+    }
+
+    #twobanner .box h5 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    
+    #twobanner .box h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    
+    #twobanner .box h6 {
+        font-size: 23px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    
+    #twobanner .box button {
+        padding: 25px 40px;
+        font-size: 28px;
+    }
+
+    #season {
+        justify-content: space-evenly;
+    }
+    
+    #season .se_box {
+        min-width: 400px;
+        height: 25vh;
+        margin-bottom: 30px;
+    }
+
+    footer .col {
+        margin-bottom: 20px;
+    }
+    footer .co {
+        margin-bottom: 20px;
+    }
+}
