@@ -1380,6 +1380,20 @@ footer .copy {
     #single .single2 {
         width: 100%;
     }
+
+    #abouts{
+        flex-direction: column;
+    }
+
+    #abouts img{
+        width: 100%;
+        height: auto;
+    }
+    
+    #abouts .abouts2{
+        width: 100%;
+        padding-top: 50px;
+    }
 }
 
 
@@ -1430,98 +1444,14 @@ footer .copy {
 }
 
 
-/* #singlemain {
-    display: flex;
-    margin-top: 20px;
-}
 
-#singlemain .single1{
-    width: 40%;
-    margin-right: 50px;
-}
 
-.box1_1{
+.mainsingle{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.boxxs{
-    flex-basis: 24%;
-    cursor: pointer;
-}
-
-#singlemain .single2{
-    width: 50%;
-    padding-top: 30px;
-}
-
-#singlemain .single2 h5 {
-    margin: 20px 0;
-    font-size: 16px;
-}
-
-#singlemain .single2 h3 {
-    margin-bottom: 20px;
-}
-
-#singlemain .single2 h2 {
-    margin-bottom: 15px;
-}
-
-#singlemain .single2 select {
-    padding: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-#singlemain .single2 select option {
-    padding: 5px;
-    font-size: 16px;
-}
-
-#singlemain .single2 select:focus {
-    outline: none;
-}
-
-#singlemain .single2 .addtocard {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-#singlemain .single2 input {
-    width: 60px;
-    height: 50px;
-    padding: 6px;
-    font-size: 18px;
-    margin-right: 20px;
-}
-
-#singlemain .single2 input:focus {
-    outline: none;
-}
-
-#singlemain .single2 .addtocard a {
-    padding: 10px 20px;
-    background-color: green;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#singlemain .single2 p {
-    text-align: justify;
-    line-height: 20px;
-    text-indent: 50px;
-} */
-
-
-
-#single{
-    display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #single .single1{
@@ -1602,4 +1532,58 @@ footer .copy {
     text-align: justify;
     line-height: 20px;
     text-indent: 50px;
+}
+
+#about-main{
+    width: 100%;
+    height: 40vh;
+    background-image: url(./img/panner/b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#about-main h2 {
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+#about-main h5 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+#abouts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#abouts img{
+    min-width: 40%;
+    height: auto;
+}
+
+#abouts .abouts2{
+    min-width: 40%;
+    height: auto;
+    padding-top: 50px;
+}
+
+#abouts .abouts2 h1{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+#abouts .abouts2 p{
+    text-align: justify;
+    text-indent: 50px
 }
