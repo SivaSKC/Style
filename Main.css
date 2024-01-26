@@ -786,6 +786,11 @@ footer .copy {
         font-size: 14px;
     }
 
+    #features {
+        padding: 10px 20px;
+        justify-content: space-around;
+    }
+
     #features .fe-box {
         width: 70px;      
         margin-bottom: 20px;
