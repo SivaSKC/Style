@@ -756,23 +756,23 @@ footer .copy {
     }
 
     #main h4 {
-        font-size: 25px;
-        padding-bottom: 10px;
+        font-size: 15px;
+        padding-bottom: 7px;
     }
     
     #main h2 {
-        font-size: 30px;
-        padding-bottom: 15px;
+        font-size: 15px;
+        padding-bottom: 8px;
     }
     
     #main h1 {
-        font-size: 38px;
-        padding-bottom: 15px;
+        font-size: 19px;
+        padding-bottom: 8px;
     }
     
     #main h5 {
-        font-size: 18px;
-        padding-bottom: 30px;
+        font-size: 9px;
+        padding-bottom: 15px;
     }
     
     #main button {
@@ -855,6 +855,7 @@ footer .copy {
     footer .col {
         margin-bottom: 20px;
     }
+
     footer .co {
         margin-bottom: 20px;
     }
