@@ -1394,6 +1394,11 @@ footer .copy {
         width: 100%;
         padding-top: 50px;
     }
+
+
+    #protects{
+        margin-top: 0px;
+    }
 }
 
 
@@ -1444,8 +1449,6 @@ footer .copy {
 }
 
 
-
-
 .mainsingle{
     width: 100%;
     display: flex;
@@ -1455,8 +1458,10 @@ footer .copy {
 }
 
 #single .single1{
-    width: 40%;
-    margin-right: 50px;
+    min-width: 40%;
+    width: 500px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 #single .singles{
@@ -1470,8 +1475,11 @@ footer .copy {
 }
 
 #single .single2{
-    width: 50%;
+    min-width: 50%;
+    width: 500px;
     padding-top: 30px;
+    margin:10px 25px;
+
 }
 
 #single .single2 h5 {
@@ -1575,7 +1583,7 @@ footer .copy {
 #abouts .abouts2{
     min-width: 40%;
     height: auto;
-    padding-top: 50px;
+    padding: 25px;
 }
 
 #abouts .abouts2 h1{
