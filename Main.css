@@ -788,17 +788,16 @@ footer .copy {
 
     #features {
         padding: 10px 20px;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     #features .fe-box {
-        width: 70px;      
+        width: 90px;      
         margin-bottom: 20px;
     }
 
     #features img {
         width: 100%;
-        height: 100px;
         margin-bottom: 5px;
     }
 
@@ -809,7 +808,7 @@ footer .copy {
     .mini_container {
         width: 20%;
         margin: 15px 0;
-    }
+    }got 
 
     #repair h6 {
         font-size: 25px;
