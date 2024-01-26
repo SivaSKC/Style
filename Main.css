@@ -558,14 +558,14 @@ footer .copy {
         justify-content: flex-start;
         flex-direction: column;
         background-color: aquamarine;
-        width: 300px;
+        width: 200px;
         height: 100vh;
         z-index: 1;
         padding-top: 60px;
         padding-left: 40px;
         position: fixed;
         top: 0;
-        right: -300px;
+        right: -200px;
         transition: 1s;
     }
 
@@ -584,14 +584,6 @@ footer .copy {
         left: 20px;
         font-size: 30px;
     }
-
-    /* .fa-bars {
-        display: block;
-        position: absolute;
-        top: 30px;
-        right: 50px;
-        font-size: 30px;
-    } */
 
     .berger{
         display: block;
@@ -718,14 +710,14 @@ footer .copy {
         justify-content: flex-start;
         flex-direction: column;
         background-color: aquamarine;
-        width: 300px;
+        width: 200px;
         height: 100vh;
         z-index: 1;
         padding-top: 60px;
         padding-left: 40px;
         position: fixed;
         top: 0;
-        right: -300px;
+        right: -200px;
         transition: 1s;
     }
 
@@ -929,14 +921,14 @@ margin-bottom: 30px;
         justify-content: flex-start;
         flex-direction: column;
         background-color: aquamarine;
-        width: 300px;
+        width: 200px;
         height: 100vh;
         z-index: 1;
         padding-top: 60px;
         padding-left: 40px;
         position: fixed;
         top: 0;
-        right: -300px;
+        right: -200px;
         transition: 1s;
     }
 
