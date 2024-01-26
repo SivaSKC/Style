@@ -1332,7 +1332,7 @@ footer .copy {
     }
 
     #signup {
-        width: 100%;
+        width: 90%;
         height: 40vh;
         display: flex;
         flex-wrap: wrap;
@@ -1395,11 +1395,52 @@ footer .copy {
         padding-top: 50px;
     }
 
-
     #protects{
         margin-top: 0px;
     }
+
+    #contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact .detailsof{
+        width:100%;
+        padding: 10px 50px 10px 40px;
+    }
+
+    #contact .detailsof p{
+        font-size: 14px;
+    }
+    
+    #contact .detailsof h1{
+        font-size: 15px;
+    }
+    
+    #contact .detailsof h6{
+        font-size: 14px;
+    }
+    
+    #contact .detailsof h4{
+        font-size: 15px;
+    }
+
+     #contact .detailsof h4 i{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    #contact .map{
+        width: 50%;
+        padding: 15px;
+    }
+
+    #contact .map iframe{
+        width: 250px;
+    }
+
 }
+
 
 
 #shop-main {
@@ -1594,4 +1635,45 @@ footer .copy {
 #abouts .abouts2 p{
     text-align: justify;
     text-indent: 50px
+}
+
+#contact{
+    display: flex;    
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#contact .detailsof{
+    min-width:40%;
+    padding: 40px 50px 10px 40px;
+}
+
+#contact .detailsof p{
+    margin: 20px 0;
+}
+
+#contact .detailsof h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#contact .detailsof h6{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#contact .detailsof h4{
+    margin-bottom: 18px;
+    font-size: 19px;
+    color: rgb(109, 103, 103);
+    font-weight: 400;
+}
+
+#contact .detailsof h4 i{
+    margin-right: 15px;
+}
+
+#contact .map{
+    min-width: 40%;
+    width: 350px;
 }
